@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigi>
+        <title>emcriptador</title>
+</head>
+<body>
+         <header>
+             <img class="logo" src="/imagenes/Logo.png" alt="logo de alura latam">
+         </header>
+    <main class="container">
+            <section>
+                     <textarea class="tex__area"  cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                 
+                     <h6 class="informacion">solo letras minusculas y sin acento</h6>                
+                 
+                 
+                 <div class="botones">
+                      <button class="btn__encriptar" onclick="btnEncriptar()">emcriptar</button>
+                      <button class="btn__desencriptar" onclick="btnDesEncriptar()">desemcriptar</button>
+                 </div>
+            </section>
+                
+             <section>
+                     <textarea class="mensaje__emcriptado"cols="20" rows="10" ></textarea>
+                     
+                     
+                 <div>
+                      <button class="copiar" onclick="btncopiar()">copiar</button>
+                 </div>
+             </section>
+    </main>
+         
+         <footer>
+            <h6 class="texto__desarrollador">desarrollado por angel lb</h6>
+         </footer>
+         <script src="./script.js"></script>
+ </body>
+</html>

@@ -1,0 +1,130 @@
+:root{
+ --colorfuente1:red;
+ --colorfuente2:white;
+ --colorborde:mediumvioletred;
+ --fuente: 'inter',sans-serif;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    background-image: url(/imagenes/imagen\ defondo.jpg);
+    font-family:var(--fuente);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    
+}
+
+
+.logo{
+    padding-top:20px;
+    margin-left:10px;
+    width:90px;
+    
+}
+
+.container {
+ display:flex;  
+justify-content:space-around;
+}
+
+.body{
+font-family:var(--fuente);
+}
+.tex__area{
+    width: 100%;
+    max-width: 500px;
+    border-color:transparent;
+    outline: none;
+    height: 60dvh;
+    background: transparent;
+    font-family:var(--fuente);
+    color: var(--colorfuente2);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    overflow: auto;
+    resize: none;
+}
+.informacion{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    font-size: 0.5rem;
+    color:var(--colorfuente2);
+    margin-bottom: 1.5rem;
+}
+.botones{
+    display: flex;
+    gap:8rem;
+    flex-wrap:wrap;
+
+}
+.btn__encriptar{
+    background:none;
+    color: var(--colorfuente2);
+    font-family: var(--fuente);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    width: 200px;
+    height: 68px;
+    border-radius: 18px;
+    border: 2px solid var(--colorborde);
+    font-weight: 600;
+}
+.btn__desencriptar{
+    background:none;
+    color: var(--colorfuente2);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: var(--fuente);
+    padding: 1rem 2rem;
+    width: 200px;
+    height: 68px;
+    border-radius: 18px;
+    border: 2px solid var(--colorborde);
+    font-weight: 600;
+}
+.mensaje__emcriptado{
+background-image: url(/imagenes/Actualización\ de\ Ultimate\ Business\ Security\ de\ Avast\,\ para\ clientes\ existentes.jpg);
+background-repeat: no-repeat;
+border: 1px solid red;
+font-family:var(--fuente);
+color: var(--colorfuente1);
+margin-top:1px;
+margin-left: 0px;
+padding-left:2px;
+height: 469px;
+width: 350px;
+font: size 24px;
+resize: none;
+}
+::placeholder{color:var(--colorfuente2);}
+.mensaje__emcriptado:focus{
+    outline:none;}
+
+.copiar{
+    background:none;
+    cursor: pointer;
+    color: var(--colorfuente2);
+    font-size: 1.2rem;
+    font-family:var(--fuente);
+    padding: 1rem 2rem;
+    width: 337px;
+    height: 68px;
+    border-radius: 18px;
+    border: 2px solid var(--colorborde);
+    font-weight: 600; 
+}
+.texto__desarrollador{
+ background-color: black;
+ font-family:var(--fuente);
+ font-size: 18px;
+ color: var(--colorfuente2);
+ text-align: center;
+ margin:auto;
+ height:45px;
+
+}
